@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/app.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="calculator__screen">
+        <div data-previous-operand class="calculator__prev-operand"></div>
+        <div data-current-operand class="calculator__current-operand"></div>
+      </div>
+
+      <button data-all-clear class="calculator__btn calculator__btn--big">
+        AC
+      </button>
+      <button data-delete class="calculator__btn">DEL</button>
+      <button data-operation class="calculator__btn">&divide;</button>
+      <button data-number class="calculator__btn">1</button>
+      <button data-number class="calculator__btn">2</button>
+      <button data-number class="calculator__btn">3</button>
+      <button data-operation class="calculator__btn">*</button>
+      <button data-number class="calculator__btn">4</button>
+      <button data-number class="calculator__btn">5</button>
+      <button data-number class="calculator__btn">6</button>
+      <button data-operation class="calculator__btn">+</button>
+      <button data-number class="calculator__btn">7</button>
+      <button data-number class="calculator__btn">8</button>
+      <button data-number class="calculator__btn">9</button>
+      <button data-operation class="calculator__btn">-</button>
+      <button data-number class="calculator__btn">.</button>
+      <button data-number class="calculator__btn">0</button>
+      <button data-equals class="calculator__btn calculator__btn--big">
+        =
+      </button>
+    </section>
+  </body>
+</html>
